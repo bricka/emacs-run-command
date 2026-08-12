@@ -1,9 +1,9 @@
-;;; run-command-runner-ghostel.el --- term-mode runner -*- lexical-binding: t -*-
+;;; run-command-runner-ghostel.el --- Run commands with ghostel -*- lexical-binding: t -*-
 
-;; Copyright (C) 2020-2023 Massimiliano Mirra
+;; Copyright (C) 2026 Alex Figl-Brick
 
-;; Author: Massimiliano Mirra <hyperstruct@gmail.com>
-;; URL: https://github.com/bard/emacs-run-command
+;; Author: Alex Figl-Brick <alex@alexbrick.me>
+;; URL: https://github.com/bricka/emacs-run-command
 
 ;; This file is not part of GNU Emacs
 
@@ -22,7 +22,7 @@
 
 ;;; Commentary:
 
-;; Runner for `run-command' based on `ghostel-mode'.
+;; Runner for `run-command' based on ghostel.
 
 ;;; Code:
 
