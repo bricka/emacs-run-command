@@ -29,6 +29,7 @@
 (require 'run-command-core)
 
 (declare-function ghostel-exec "ext:ghostel")
+(defvar ghostel-compile-buffer-name)
 
 (defun run-command-runner-ghostel (command-line buffer-base-name output-buffer)
   "Command runner based on `ghostel-mode'.
