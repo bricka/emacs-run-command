@@ -35,6 +35,7 @@
 
 Executes COMMAND-LINE in buffer OUTPUT-BUFFER.  Name the process BUFFER-BASE-NAME."
   (require 'ghostel)
+  (require 'ghostel-compile)
   (let ((ghostel-compile-buffer-name (buffer-name output-buffer)))
     (ghostel-compile command-line)))
 
