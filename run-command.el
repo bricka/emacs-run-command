@@ -42,6 +42,7 @@
 (require 'run-command-selector-completing-read)
 (require 'run-command-runner-term)
 (require 'run-command-runner-compile)
+(require 'run-command-runner-ghostel)
 (require 'run-command-runner-vterm)
 (require 'run-command-runner-eat)
 
@@ -70,6 +71,9 @@ The following runners are shipped with `run-command':
 
 - `run-command-runner-vterm': display command output in a `vterm'
   buffer (requires `vterm' package to be available)
+
+- `run-command-runner-ghostel': display command output in a `ghostel'
+  buffer (requires `ghostel' package to be available)
 
 - `run-command-runner-eat': display command output in a `eat'
   buffer (requires `eat' package to be available)"
